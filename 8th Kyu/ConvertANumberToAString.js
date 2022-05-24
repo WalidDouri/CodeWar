@@ -6,11 +6,12 @@ What ways of achieving this do you know ?
   Examples :
   123 -- > "123"
 999 -- > "999"
-
+.
 */
 
 
 //Answer
+//Use ToString to convert
 function numberToString(num) {
   let baaa = num.toString();
   return baaa;

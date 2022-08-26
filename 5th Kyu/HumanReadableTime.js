@@ -1,9 +1,5 @@
-
-
-
-
-
-/*Write a function, which takes a non-negative integer (seconds) as input and returns the time in a human-readable format (HH:MM:SS)
+/*
+Write a function, which takes a non-negative integer (seconds) as input and returns the time in a human-readable format (HH:MM:SS)
 
 HH = hours, padded to 2 digits, range: 00 - 99
 MM = minutes, padded to 2 digits, range: 00 - 59
@@ -19,27 +15,31 @@ You can find some examples in the test fixtures.
 //Answer
 
 function humanReadable(seconds) {
-  let ss = 00
-  let mm = 00
-  let hh = 00
-  if (seconds < 59) {
-    ss = seconds
-  } else if (seconds >= 60 && seconds <= 3599) {
-    mm = Math.floor(seconds % 60)
-    ss = ((seconds) - (mm * 60))
-  } else {
 
+  if (seconds < 0 || seconds > 360000) {
+    return null;
+  }
+  let hh = Math.floor(seconds / 3600);
+  seconds -= hh * 3600;
+  if (hh < 10) {
+    hh = '0' + hh;
   }
 
-  return hh + ':' + mm + ':' + ss;
+  let mm = Math.floor(seconds / 60);
+  seconds -= mm * 60;
+  if (mm < 10) {
+    mm = '0' + mm;
+  }
+
+  if (seconds < 10) {
+    seconds = '0' + seconds;
+  }
+
+  return hh + ':' + mm + ':' + seconds;
 }
 
 //maybe use ceiling
 //make it two digis if hh/mm/ss are single digits
-
-
-
-
 
 const strictEqual = require("chai").assert.strictEqual;
 

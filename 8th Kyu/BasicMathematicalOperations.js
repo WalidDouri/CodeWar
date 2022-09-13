@@ -25,7 +25,6 @@ function basicOp(operation, value1, value2) {
   }
 }
 
-
 describe("Tests", () => {
   it("test", () => {
     console.log("Basic tests\n");

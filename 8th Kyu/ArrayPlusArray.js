@@ -27,3 +27,5 @@ describe("Basic tests", () => {
     assert.strictEqual(arrayPlusArray([100, 200, 300], [400, 500, 600]), 2100);
   })
 })
+
+A

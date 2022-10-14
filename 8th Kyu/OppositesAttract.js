@@ -7,9 +7,17 @@ Write a function that will take the number of petals of each flower and return t
 //answer
 function lovefunc(flower1, flower2) {
   // moment of truth
-  return (flower1 % 2 == 0) && (flower2 % 2 == 0) ? false : true
-}
 
+  if (flower1 % 2 == 0 && flower2 % 2 == 1) {
+    return true;
+  }
+  if (flower1 % 2 == 1 && flower2 % 2 == 0) {
+    return true;
+  }
+  else {
+    return false;
+  }
+}
 const chai = require("chai");
 const assert = chai.assert;
 chai.config.truncateThreshold = 0;

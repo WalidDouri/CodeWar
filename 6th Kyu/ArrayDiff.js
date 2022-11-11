@@ -24,6 +24,7 @@ const chai = require("chai");
 const assert = chai.assert;
 chai.config.truncateThreshold = 0;
 
+
 describe("Basic tests", () => {
   it("Should pass Basic tests", () => {
     assert.deepEqual(arrayDiff([1, 2], [1]), [2], "a was [1,2], b was [1]");

@@ -14,6 +14,7 @@ Note: In COBOL, it should return "found the needle at position 6"
 */
 
 //Answer
+
 function findNeedle(haystack) {
 
   for (i = 0; i < haystack.length; i++) {

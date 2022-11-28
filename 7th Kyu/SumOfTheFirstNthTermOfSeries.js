@@ -33,12 +33,13 @@ function SeriesSum(n) {
     n += -1;
   }
   return sum.toFixed(2)
+}
 
-
-  describe("Tests", () => {
-    it("test", () => {
-      Test.assertEquals(SeriesSum(1), "1.00")
-      Test.assertEquals(SeriesSum(2), "1.25")
-      Test.assertEquals(SeriesSum(3), "1.39")
-      Test.assertEquals(SeriesSum(4), "1.49")
-    });
+describe("Tests", () => {
+  it("test", () => {
+    Test.assertEquals(SeriesSum(1), "1.00")
+    Test.assertEquals(SeriesSum(2), "1.25")
+    Test.assertEquals(SeriesSum(3), "1.39")
+    Test.assertEquals(SeriesSum(4), "1.49")
+  });
+}

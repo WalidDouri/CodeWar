@@ -17,7 +17,7 @@ function moveZeros(arr) {
       apples.push(arr[i])
     }
   }
-  return apples.concat(temp)
+  return apples.concat(temp);
 }
 
 

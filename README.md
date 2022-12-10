@@ -1,3 +1,3 @@
 # CodeWar
  
-Daily task completed 
+Daily task completed :)

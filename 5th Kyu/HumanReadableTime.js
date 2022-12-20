@@ -10,8 +10,6 @@ You can find some examples in the test fixtures.
 
 */
 
-
-
 //Answer
 
 function humanReadable(seconds) {

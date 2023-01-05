@@ -12,7 +12,6 @@ patrick feeney => P.F
 
 
 //Answer
-
 function abbrevName(name) {
   //toUppercase
   //split -index 0 
@@ -21,8 +20,6 @@ function abbrevName(name) {
   return (ish[0][0] + '.' + ish[1][0]);
 
 }
-
-
 
 
 const chai = require("chai");

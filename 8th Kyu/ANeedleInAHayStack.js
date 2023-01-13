@@ -26,8 +26,6 @@ function findNeedle(haystack) {
   }
 }
 
-
-
 describe("Tests", () => {
 
   it("test", () => {

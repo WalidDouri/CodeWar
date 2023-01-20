@@ -14,6 +14,7 @@ Here's a nice Youtube video about currying, which might help you if this is new 
 //Answer
 /* left blank for unlimited creativity :) */
 
+
 function multiplyAll(array) {
   return function (n) {
     return array.map(e => e * n)

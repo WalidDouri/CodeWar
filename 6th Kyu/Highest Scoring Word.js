@@ -30,6 +30,11 @@ function high(x) {
 
 }
 
+function high(s){
+  let as = s.split(' ').map(s=>[...s].reduce((a,b)=>a+b.charCodeAt(0)-96,0));
+  return s.split(' ')[as.indexOf(Math.max(...as))];
+}
+
 const chai = require("chai");
 const assert = chai.assert;
 chai.config.truncateThreshold = 0;

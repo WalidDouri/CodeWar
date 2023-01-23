@@ -21,7 +21,6 @@ And a tower with 6 floors looks like this:
 
 */
 
-
 //Answer
 
 function towerBuilder(nFloors) {

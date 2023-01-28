@@ -10,8 +10,6 @@ b = 4
 
 */
 
-
-
 //Answer 
 
 function between(a, b) {

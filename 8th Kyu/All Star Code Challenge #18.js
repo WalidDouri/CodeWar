@@ -31,8 +31,6 @@ function strCount(str, letter) {
   return count
 
 }
-
-
 const { assert } = require('chai');
 
 describe("Tests", () => {

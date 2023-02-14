@@ -8,6 +8,7 @@ Example:
 move(3, 6) should equal 15
 */
 
+
 //Answer
 function move(position, roll) {
   // return the new position

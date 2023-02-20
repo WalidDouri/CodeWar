@@ -7,7 +7,6 @@ In this kata you need to check the provided array (x) for good ideas 'good' and 
 */
 
 //Answer
-
 function well(x) {
   let count = 0
   for (let i = 0; i < x.length; i++) {

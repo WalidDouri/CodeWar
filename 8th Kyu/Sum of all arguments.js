@@ -14,7 +14,6 @@ function sum(...x) {
   const apple = x.reduce((a, b) => a + b, 0);
 
   return apple
-
 }
 
 describe("Sample tests", () => {

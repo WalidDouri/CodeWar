@@ -9,7 +9,7 @@ Sam Harris => S.H
 
 patrick feeney => P.F
 */
-
+ 
 
 //Answer
 function abbrevName(name) {

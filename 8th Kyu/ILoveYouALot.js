@@ -13,8 +13,6 @@ Your goal in this kata is to determine which phrase the girls would say for a fl
 
 */
 
-
-
 //Answer 
 // if statement for edge cases then
 function howMuchILoveYou(nbPetals) {

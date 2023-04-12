@@ -31,6 +31,7 @@ var isAnagram = function (t, o) {
 };
 
 
+
 describe("Tests", () => {
   it("test", () => {
     Test.assertEquals(isAnagram("foefet", "toffee"), true, 'The word foefet is an anagram of toffee')

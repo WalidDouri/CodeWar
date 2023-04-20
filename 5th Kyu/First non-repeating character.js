@@ -18,6 +18,8 @@ function firstNonRepeatingLetter(s) {
   }
   return null;
 }
+// TEST 
+
 
 const Test = require('@codewars/test-compat');
 

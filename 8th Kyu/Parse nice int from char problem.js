@@ -7,7 +7,6 @@ Assume the test input string is always a valid string. For example, the test inp
 */
 
 //Answer
-
 function getAge(inputString) {
 
   return Number(inputString[0])
